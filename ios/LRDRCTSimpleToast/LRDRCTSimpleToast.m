@@ -5,9 +5,12 @@
 //  Created by luoruidong on 16/6/30.
 //  Copyright © 2016年 luoruidong. All rights reserved.
 //
+
 #import <UIKit/UIKit.h>
-#import "RCTBridgeModule.h"
 #import "UIView+Toast.h"
+
+#import "React/RCTBridge.h"
+#import "React/RCTUtils.h"
 
 NSInteger const LRDRCTSimpleToastBottomOffset = 40;
 double const LRDRCTSimpleToastShortDuration = 3.0;
